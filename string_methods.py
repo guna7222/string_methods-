@@ -26,4 +26,35 @@ print(txt.endswith('d', 5)) # txt.endswith(value, start, end)-start & end both a
 txt = 'hello, welcome to my world'
 print(txt.find('welcome'))
 
+# startswith()
+txt = 'hello, welcome to my world'
+print(txt.startswith('he'))
 
+# isnumeric 
+txt = 'hello, welcome to my world'
+print(txt.isnumeric())
+
+# isalpha
+
+txt = 'hello, welcome to my world'
+print(txt.isalpha())
+
+# isupper()
+
+txt = 'hello, welcome to my world'
+print(txt.isupper())
+
+#islower()
+
+txt = 'hello, welcome to my world'
+print(txt.islower())
+
+#index()
+
+txt = 'hello, welcome to my world'
+print(txt.index('welcome'))
+
+#isspace()
+
+txt = ' '
+print(txt.isspace())
